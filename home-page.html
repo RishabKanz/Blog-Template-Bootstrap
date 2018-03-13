@@ -1,447 +1,291 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
     <title>Material Design Bootstrap</title>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        
+
+        main {
+            padding-top: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        .widget-wrapper {
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 2rem;
+			width: 50%
+			
+        }
+
+
+        .navbar {
+            background-color: pink;
+        }
+
+        footer.page-footer {
+            background-color: #53463d;
+            margin-top: 2rem;
+        }
+
+        .list-group-item.active {
+            background-color: #a3b0c2;
+            border-color: #a3b0c2
+        }
+
+        .list-group-item:not(.active) {
+            color: #222;
+        }
+
+        .list-group-item:not(.active):hover {
+            color: #666;
+        }
+
+        .card {
+            font-weight: 300;
+        }
+
+        .navbar .btn-group .dropdown-menu a:hover {
+            color: #000 !important;
+        }
+
+        .navbar .btn-group .dropdown-menu a:active {
+            color: #fff !important;
+        }
+    </style>
+
 </head>
 
 <body>
 
-    <!--Main Navigation-->
+
     <header>
 
-        <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-            <div class="container">
-
-                <!-- Brand -->
-                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-                    <strong class="blue-text">MDB</strong>
-                </a>
-
-                <!-- Collapse -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Links -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                    <!-- Left -->
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link waves-effect" href="#">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">About MDB</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/getting-started/" target="_blank">Free download</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free tutorials</a>
-                        </li>
-                    </ul>
-
-                    <!-- Right -->
-                    <ul class="navbar-nav nav-flex-icons">
-                        <li class="nav-item">
-                            <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded waves-effect"
-                                target="_blank">
-                                <i class="fa fa-github mr-2"></i>MDB GitHub
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-
-            </div>
-        </nav>
-        <!-- Navbar -->
-
+        
     </header>
-    <!--Main Navigation-->
 
-    <!--Main layout-->
-    <main class="mt-5 pt-5">
+    <main>
+
+        <!--Main layout-->
         <div class="container">
+            <div class="row">
 
-            <!--Section: Jumbotron-->
-            <section class="card wow fadeIn" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+                <!--Main column-->
+                <div class="col-lg-8">
 
-                <!-- Content -->
-                <div class="card-body text-white text-center py-5 px-5 my-5">
+                    <!--Post-->
+                    <div class="post-wrapper wow fadeIn" data-wow-delay="0.2s">
+                        <!--Post data-->
+                        <h1 class="h1-responsive red-text font-bold">MEDICAL
+                           
+                        </h1>
+                      
 
-                    <h1 class="mb-4">
-                        <strong>Learn Bootstrap 4 with MDB</strong>
-                    </h1>
-                    <p>
-                        <strong>Best & free guide of responsive web design</strong>
-                    </p>
-                    <p class="mb-4">
-                        <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-                            versions available. Create your own, stunning website.</strong>
-                    </p>
-                    <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-outline-white btn-lg">Start free tutorial
-                        <i class="fa fa-graduation-cap ml-2"></i>
-                    </a>
+                        <br>
+
+                        <!--Featured image -->
+                        <div class="view overlay hm-white-light z-depth-1-half rounded">
+                            <img src="http://media2.govtech.com/images/940*529/hospital1.jpg" class="img-fluid" alt="">
+                            <div class="mask">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <!--Post excerpt-->
+                        <p>A hospital is a health care institution providing patient treatment with specialized medical and nursing staff and medical equipment. The best-known type of hospital is the general hospital, which typically has an emergency department to treat urgent health problems ranging from fire and accident victims to a heart attack.</p>
+
+                        <!--"Read more" button-->
+                       <a href="https://en.wikipedia.org/wiki/Hospital"> <button class="btn btn-blue btn-md" >Read more(WIKI)</button></a>
+                    </div>
+                    <!--/.Post-->
+
+                    <hr class="mt-5">
+
+                    <!--Post-->
+                    <div class="post-wrapper wow fadeIn" data-wow-delay="0.4s">
+                        <!--Post data-->
+                        <h1 class="h1-responsive purple-text font-bold mt-5">COLLEGE
+                          
+                        </h1>
+                      
+
+                        <br>
+
+                        <!--Featured image -->
+                        <div class="view overlay hm-white-light z-depth-1-half rounded">
+                            <img src="https://www.iaspaper.net/wp-content/uploads/2017/10/Guwahati-Polytechnic-College-Assam.jpg" class="img-fluid " alt="">
+                            <div class="mask">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <!--Post excerpt-->
+                        <p>A college (Latin: collegium) is an educational institution or a constituent part of one. A college may be a degree-awarding tertiary educational institution, a part of a collegiate or federal university, or an institution offering vocational education.</p>
+
+                        <!--"Read more" button-->
+                        <a href="https://en.wikipedia.org/wiki/College"><button class="btn btn-blue btn-md">Read more(WIKI)</button></a>
+                    </div>
+                    <!--/.Post-->
+
+                    <hr class="mt-5">
+
+                    <!--Post-->
+                    <div class="post-wrapper wow fadeIn" data-wow-delay="0.6s">
+                        <!--Post data-->
+                        <h1 class="h1-responsive font-bold green-text mt-5">HOTEL
+                           
+                        </h1>
+                      
+
+                        <br>
+
+                        <!--Featured image -->
+                        <div class="view overlay hm-white-light z-depth-1-half rounded">
+                            <img src="http://www.wilsonassociates.com/wp-content/uploads/2014/05/ITC-Grand-Chola-Chennai_14_Solo.jpg" class="img-fluid" alt="">
+                            <div class="mask">
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <!--Post excerpt-->
+                        <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator and other kitchen facilities, upholstered chairs, a flatscreen television and en-suite bathrooms.</p>
+
+                        <!--"Read more" button-->
+                        <a href="https://en.wikipedia.org/wiki/Hotel"><button class="btn btn-blue btn-md">Read more(WIKI)</button>
+                    </div>
+                    <!--/.Post-->
+
+                    <hr class="mt-5">
+
+                    <!--Pagination-->
+                    <nav>
+                        <ul class="pagination flex-center pg-primary  wow fadeIn" data-wow-delay="0.2s">
+                           
+                    <!--/.Pagination-->
 
                 </div>
-                <!-- Content -->
-            </section>
-            <!--Section: Jumbotron-->
 
-            <hr class="my-5">
+                <!--Sidebar-->
+                <div class="col-lg-4">
 
-            <!--Section: Cards-->
-            <section class="text-center">
-
-                <!--Grid row-->
-                <div class="row mb-4 wow fadeIn">
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-4">
-
-                        <!--Card-->
-                        <div class="card">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
-                                </div>
-                            </div>
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">MDB Quick Start</h4>
-                                <!--Text-->
-                                <p class="card-text">Get started with MDBootstrap, the world's most popular Material Design framework for building
-                                    responsive, mobile-first sites.</p>
-                                <p class="card-text">
-                                    <strong>5 minutes, a few clicks and... done. You will be surprised at how easy it is.</strong>
-                                </p>
-                            </div>
-
+                    <class="widget-wrapper wow fadeIn" data-wow-delay="0.4s">
+                        <h4 class="font-bold dark-grey-text">MEDICAL Categories:</h4>
+                        <br>
+                        <div class="list-group">
+                            
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing1/heart/heart.html" class="list-group-item">Heart</a>
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing1/kidney/Kidney.html" class="list-group-item">Kidney</a>
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing1/cancer/Cancer.html" class="list-group-item">Cancer</a>
                         </div>
-                        <!--/.Card-->
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-
-                        <!--Card-->
-                        <div class="card">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="img-fluid" alt="">
-                                <a href="https://mdbootstrap.com/automated-app-start/" target="_blank">
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">Bootstrap Automation</h4>
-                                <!--Text-->
-                                <p class="card-text">Learn how to create a smart website which learns your user and reacts properly to his behavior.</p>
-                                <a href="https://mdbootstrap.com/automated-app-start/" target="_blank" class="btn btn-primary btn-md">Start tutorial
-                                    <i class="fa fa-play ml-2"></i>
-                                </a>
-                            </div>
-
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<class="widget-wrapper wow fadeIn" data-wow-delay="0.4s">
+                        <h4 class="font-bold dark-grey-text">Colleges Categories:</h4>
+                        <br>
+                        <div class="list-group">
+                            
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing2/medical/medical.html" class="list-group-item">Medical</a>
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing2/enginearing/engineering.html" class="list-group-item">Engineering</a>
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing2/arts/arts.html" class="list-group-item">Arts & Science</a>
                         </div>
-                        <!--/.Card-->
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-
-                        <!--Card-->
-                        <div class="card">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="https://mdbootstrap.com/wp-content/uploads/2018/01/push-fb.jpg" class="img-fluid" alt="">
-                                <a href="https://mdbootstrap.com/web-push-start/" target="_blank">
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">Push notifications</h4>
-                                <!--Text-->
-                                <p class="card-text">Push messaging provides a simple and effective way to re-engage with your users and in this
-                                    tutorial you'll learn how to add push notifications to your web app</p>
-                                <a href="https://mdbootstrap.com/web-push-start/" target="_blank" class="btn btn-primary btn-md">Start tutorial
-                                    <i class="fa fa-play ml-2"></i>
-                                </a>
-                            </div>
-
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<class="widget-wrapper wow fadeIn" data-wow-delay="0.4s">
+                        <h4 class="font-bold dark-grey-text">Hotel Categories:</h4>
+                        <br>
+                        <div class="list-group">
+                            
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing3/basic/BASIC.html" class="list-group-item">Basic</a>
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing3/3star/3star.html" class="list-group-item">3 STAR</a>
+                            <a href="file:///C:/Users/Admin/Desktop/blog-home-page/ADD%20ONS/2%20columns%20listing3/5star/5star.html" class="list-group-item">5 STAR</a>
                         </div>
-                        <!--/.Card-->
+                    
 
-                    </div>
-                    <!--Grid column-->
+                    
+                <!--/.Sidebar-->
+           
+        
+        <!--/.Main layout-->
 
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row mb-4 wow fadeIn">
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-4">
-
-                        <!--Card-->
-                        <div class="card">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-angular.jpg" class="img-fluid" alt="">
-                                <a href="https://mdbootstrap.com/angular/" target="_blank">
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">MDB with Angular</h4>
-                                <!--Text-->
-                                <p class="card-text">Built with Angular 5, Bootstrap 4 and TypeScript. CLI version available. </p>
-                                <a href="https://mdbootstrap.com/angular/" target="_blank" class="btn btn-primary btn-md">Free download
-                                    <i class="fa fa-download ml-2"></i>
-                                </a>
-                            </div>
-
-                        </div>
-                        <!--/.Card-->
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-
-                        <!--Card-->
-                        <div class="card">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-react.jpg" class="img-fluid" alt="">
-                                <a href="https://mdbootstrap.com/react/" target="_blank">
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">MDB with React</h4>
-                                <!--Text-->
-                                <p class="card-text">Based on the latest Bootstrap 4 and React 16. </p>
-                                <a href="https://mdbootstrap.com/react/" target="_blank" class="btn btn-primary btn-md">Free download
-                                    <i class="fa fa-download ml-2"></i>
-                                </a>
-                            </div>
-
-                        </div>
-                        <!--/.Card-->
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-
-                        <!--Card-->
-                        <div class="card">
-
-                            <!--Card image-->
-                            <div class="view overlay hm-white-slight">
-                                <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-vue.jpg" class="img-fluid" alt="">
-                                <a href="https://mdbootstrap.com/vue/" target="_blank">
-                                    <div class="mask"></div>
-                                </a>
-                            </div>
-
-                            <!--Card content-->
-                            <div class="card-body">
-                                <!--Title-->
-                                <h4 class="card-title">MDB with Vue</h4>
-                                <!--Text-->
-                                <p class="card-text">Based on the latest Bootstrap 4 and Vue 2.5.7. </p>
-                                <a href="https://mdbootstrap.com/vue/" target="_blank" class="btn btn-primary btn-md">Free download
-                                    <i class="fa fa-download ml-2"></i>
-                                </a>
-                            </div>
-
-                        </div>
-                        <!--/.Card-->
-
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Pagination-->
-                <nav class="d-flex justify-content-center wow fadeIn">
-                    <ul class="pagination pg-blue">
-
-                        <!--Arrow left-->
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                        </li>
-
-                        <li class="page-item active">
-                            <a class="page-link" href="#">1
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">4</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">5</a>
-                        </li>
-
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <!--Pagination-->
-
-            </section>
-            <!--Section: Cards-->
-
-        </div>
     </main>
-    <!--Main layout-->
+	 <!--Footer-->
+    <footer>
 
-    <!--Footer-->
-    <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+        <!--Footer links-->
+        <div class="container-fluid mx-0 px-0" background-color:>
+<div class="widget-wrapper wow fadeIn" data-wow-delay="0.6s">
+                        <h4 class="font-bold dark-#00FFFF-text">Subscription form:</h4>
+                        <br>
+                        <div class="card">
+                            <div class="card-body" >
+                                <p>
+                                    <strong><font color="#800080">Subscribe to our newsletter</strong>
+                                </p>
+                                <p>Once a week we will send you a summary of the most useful news</font></p>
+                                <div class="md-form">
+                                    <i class="fa fa-user prefix pink-text"></i>
+                                    <input type="text" id="form1" class="form-control">
+                                    <label for="form1">Your name</label>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fa fa-envelope prefix pink-text"></i>
+                                    <input type="text" id="form2" class="form-control">
+                                    <label for="form2">Your email</label>
+                                </div>
+                                <button class="btn btn-blue btn-md">Submit</button>
 
-        <!--Call to action-->
-        <div class="pt-4">
-            <a class="btn btn-outline-white" href="https://mdbootstrap.com/getting-started/" target="_blank" role="button">Download MDB
-                <i class="fa fa-download ml-2"></i>
-            </a>
-            <a class="btn btn-outline-white" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank" role="button">Start free tutorial
-                <i class="fa fa-graduation-cap ml-2"></i>
-            </a>
-        </div>
-        <!--/.Call to action-->
+                            </div>
+                        </div>
+                    </div>
+            <!--Call to action-->
+            
+            <!--/.Call to action-->
 
-        <hr class="my-4">
-
-        <!-- Social icons -->
-        <div class="pb-4">
-            <a href="https://www.facebook.com/mdbootstrap" target="_blank">
-                <i class="fa fa-facebook mr-3"></i>
-            </a>
-
-            <a href="https://twitter.com/MDBootstrap" target="_blank">
-                <i class="fa fa-twitter mr-3"></i>
-            </a>
-
-            <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-                <i class="fa fa-youtube mr-3"></i>
-            </a>
-
-            <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-                <i class="fa fa-google-plus mr-3"></i>
-            </a>
-
-            <a href="https://dribbble.com/mdbootstrap" target="_blank">
-                <i class="fa fa-dribbble mr-3"></i>
-            </a>
-
-            <a href="https://pinterest.com/mdbootstrap" target="_blank">
-                <i class="fa fa-pinterest mr-3"></i>
-            </a>
-
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
-                <i class="fa fa-github mr-3"></i>
-            </a>
-
-            <a href="http://codepen.io/mdbootstrap/" target="_blank">
-                <i class="fa fa-codepen mr-3"></i>
-            </a>
-        </div>
-        <!-- Social icons -->
-
-        <!--Copyright-->
-        <div class="footer-copyright py-3">
-            © 2018 Copyright:
-            <a href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank"> MDBootstrap.com </a>
-        </div>
-        <!--/.Copyright-->
+            
 
     </footer>
     <!--/.Footer-->
 
+
+
     <!-- SCRIPTS -->
+
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap dropdown -->
     <script type="text/javascript" src="js/popper.min.js"></script>
+
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Initializations -->
-    <script type="text/javascript">
-        // Animations initialization
+
+    <script>
         new WOW().init();
     </script>
+
 </body>
 
 </html>
